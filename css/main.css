@@ -31,4 +31,225 @@ body {
   text-align: left;
   color: var(--color__text-main);
   background-color: var(--color__background-body);
+  overflow-x: hidden;
 }
+
+input,
+select,
+textarea,
+.accordion-box .buttons h5.title,
+.woocommerce div.product accordion-box.outline h5 {
+  font-family: var(--font-main);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.box-count,
+.mini_cart_item-desc .font-titles,
+.woo-c_product .font-titles,
+.tabNav_link.active,
+.icon-box-headline,
+.fullscreen-nav .menu-link,
+.postNav_item_inner_heading {
+  font-family: var(--font-main);
+}
+
+.countdown-box .box-time .box-count,
+.chart-box-pie-content {
+  font-family: var(--font-main);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.box-count,
+.font-titles,
+.tabNav_link.active,
+.icon-box-headline,
+.fullscreen-nav .menu-link,
+.postNav_item_inner_heading,
+.btn,
+.button,
+a.button,
+.main-nav .nav-item,
+.heading .title,
+.socialbar.inline a,
+.vc_row .vc-bg-side-text,
+.counter-box-count {
+  font-family: var(--font-main);
+}
+
+.portfolio-item h4,
+.portfolio-item h4.title,
+.portfolio-item h4 a,
+.portfolio-item-2 h4,
+.portfolio-item-2 h4.title,
+.portfolio-item-2 h4 a,
+.woocommerce ul.products li.product a {
+  font-family: var(--font-main);
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.blog-item h3.title {
+  font-family: var(--font-main);
+  line-height: initial;
+}
+
+.blog-item h3.title a {
+  font-size: initial;
+}
+
+.portfolio-item-2 h4 {
+  font-family: var(--font-main);
+}
+
+p.subtitle,
+.subtitle-font,
+a.category,
+.heading .title,
+.heading .subtitle {
+  font-family: var(--font-main);
+}
+
+span.category > a,
+div.category > a {
+  font-family: var(--font-main);
+}
+
+.portfolio-item .subtitle-font,
+.woocommerce ul.products li.product .subtitle-font.category,
+.woocommerce ul.products li.product .subtitle-font.category > a {
+  font-family: var(--font-main);
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input.classic::-webkit-input-placeholder,
+.contact-form.classic input::-webkit-input-placeholder,
+.contact-form.classic textarea::-webkit-input-placeholder,
+input.classic::-moz-placeholder {
+  font-family: var(--font-main);
+}
+
+.contact-form.classic input::-moz-placeholder,
+.contact-form.classic textarea::-moz-placeholder {
+  font-family: var(--font-main);
+}
+
+input.classic:-ms-input-placeholder,
+.contact-form.classic input:-ms-input-placeholder,
+.contact-form.classic textarea:-ms-input-placeholder {
+  font-family: var(--font-main);
+}
+
+/* ==========================================================================
+   Home Hero
+   ========================================================================== */
+.t-home-hero {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #0c0c0c url("https://stockie.pvive.com/wp-content/themes/stockie-child/images/home-bg.jpg") center bottom no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 767.98px) {
+  .t-home-hero {
+    background: #1d1d1f url("https://stockie.pvive.com/wp-content/themes/stockie-child/images/home-mobile-bg.jpg") center top no-repeat;
+    background-size: cover;
+    display: block;
+    height: auto;
+  }
+}
+
+.t-home-hero__canvas {
+  display: block;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+}
+
+.t-home-hero__container {
+  position: absolute;
+  left: 32%;
+  top: 58%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 800px;
+  padding: 0 15px;
+}
+
+.t-home-hero__container::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 800px;
+  width: 100%;
+  height: 300px;
+  background: radial-gradient(50% 50% at 50% 50%, #627ea5 0, rgba(98, 126, 165, 0) 100%);
+  opacity: .7;
+}
+
+@media (max-width: 1199.98px) {
+  .t-home-hero__container {
+    left: 45%;
+    top: 70%;
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .t-home-hero__container {
+    top: 80%;
+    left: 50%;
+    max-width: 320px;
+  }
+}
+
+.t-home-hero__text {
+  color: #f5f5f7;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: inherit;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin: 0 0 8px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.t-home-hero__title {
+  color: #f5f5f7;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 767.98px) {
+  .t-home-hero__title {
+    font-size: 60px;
+  }
+}
+
+/* ==========================================================================
+   Shop
+   ========================================================================== */

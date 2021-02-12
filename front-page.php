@@ -15,6 +15,17 @@
 	}
 ?>
 
+<div class="t-home-hero">
+   <canvas id="js_snow" class="t-home-hero__canvas"></canvas>
+   <div class="t-home-hero__container">
+      <div class="t-home-hero__wrapper">
+         <p class="t-home-hero__text">Freshmint</p>
+         <h1 class="t-home-hero__title">เย็นสดชื่น ไม่เสียวฟัน</h1>
+      </div>
+   </div>
+</div>
+
+
 <div class="page-container<?php echo esc_attr( $page_container_class ); ?>">
 	
 	<div class="page-content">
@@ -33,5 +44,7 @@
 	</div><!-- .page-content -->
 
 </div><!-- .page-container -->
-	
+
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/snow.js"></script>
+
 <?php get_footer(); ?>
